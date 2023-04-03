@@ -144,8 +144,8 @@ void* consumer(void* arg){
         for(int i = 0; i < 10; i++){
             if(global_buf.blocked_threads[i] == 1){
                 sem_post(&global_buf.priv_sem[i]); // sveglio tutti E SOLO quelli bloccati
-                // nota: se facessi post su tutti gli indici di questo array, senza verificare se il thread è bloccato o meno
-                // andrei ad aumentare di 1 semafori che non necessitano di essere incrementati! 
+                // nota: se facessi post su tutti gli indici di questo array, senza verificare che il thread sia bloccato o meno
+                // andrei ad aumentare di 1 i semafori che non necessitano di essere incrementati! 
                 // ciò porterebbe a fare "passare" alcuni thread che non ne hanno bisogno!
 
                 /*
