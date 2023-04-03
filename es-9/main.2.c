@@ -144,6 +144,28 @@ void* consumer(void* arg){
         for(int i = 0; i < 10; i++){
             if(global_buf.blocked_threads[i] == 1){
                 sem_post(&global_buf.priv_sem[i]); // sveglio tutti E SOLO quelli bloccati
+                // nota: se facessi post su tutti gli indici di questo array, senza verificare se il thread è bloccato o meno
+                // andrei ad aumentare di 1 semafori che non necessitano di essere incrementati! 
+                // ciò porterebbe a fare "passare" alcuni thread che non ne hanno bisogno!
+
+                /*
+                    supponiamo, ad esempio, che i thread vengano schedulati in questo ordine e che non si stia controllando la condizione succitata:
+                    A1, A2, A3, A4, A5, consumer, B1, B2, B3, B4, B5
+                    in questo particolare scenario, vincerebbe sicuramente il gruppo A e, inoltre,
+                    i thread B non avrebbero modo di eseguire prima che venga stampato il messaggio,
+                    poiché non appena A5 finisce di mettere il messaggio nel buffer, questo notificherà
+                    il consumer, che oltretutto è il prossimo thread in coda, che procederà a fare la sua routine.
+                    a questo punto, se il consumer facesse post su tutti i semafori in modo indiscriminato, esso
+                    andrebbe a mettere a 1 tutti i semafori dei thread Ax, comportamento normale, poiché tutti i thread Ax
+                    stanno aspettando di essere svegliati, ma anche tutti i semafori dei thread Bx!
+                    A questo punto, quando vincerà un thread B, questo NON SI FERMERÀ A LINEA 118 sem_wait(&global_buf.priv_sem[thread_idx]),
+                    pertanto NON ASPETTERÀ CHE IL THREAD CONSUMER LO SVEGLI. 
+                    
+                    Oltretutto, se lo scheduling dei thread fosse particolarmente sfortunato, potrebbe capitare che il semaforo
+                    di ciascun thread Bx venisse settato a valori superiori a 1, causando deadlock nel momento in cui uno dei thread
+                    Bx vincesse la corsa sul mutex!
+
+                */
             }
         }
 
