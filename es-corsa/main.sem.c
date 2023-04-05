@@ -5,7 +5,7 @@
 #include <stdio.h>
 #include <unistd.h>
 
-#define RUNNERS_NO 150
+#define RUNNERS_NO 5
 
 typedef struct {
 
@@ -112,9 +112,9 @@ void *ref(void *arg){
 
   race->waiting = 0;
   printf("[arbitro] ready...\n");
-  sleep(1);
+  // sleep(1);
   printf("[arbitro] set...\n");
-  random_sleep();
+  // random_sleep();
   printf("[arbitro] GO!\n");
   sem_post(&race->mutex);
 
