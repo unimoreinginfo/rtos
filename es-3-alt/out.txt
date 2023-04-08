@@ -1,0 +1,103 @@
+36 send> Messaggio "68" inviato con priorita' "1"!
+80 send> Messaggio "29" inviato con priorita' "0"!
+64 send> Messaggio "40" inviato con priorita' "0"!
+64 send> Messaggio "63" inviato con priorita' "0"!
+92 send> Messaggio "67" inviato con priorita' "0"!
+92 send> Messaggio "42" inviato con priorita' "2"!
+36 send> Messaggio "53" inviato con priorita' "2"!
+92 recv> Ho ricevuto il messaggio "29"
+48 recv> Ho ricevuto il messaggio "68"
+48 recv> Ho ricevuto il messaggio "63"
+4 recv> Ho ricevuto il messaggio "40"
+60 recv> Ho ricevuto il messaggio "67"
+80 send> Messaggio "18" inviato con priorita' "2"!
+80 send> Messaggio "48" inviato con priorita' "0"!
+92 recv> Ho ricevuto il messaggio "53"
+64 send> Messaggio "51" inviato con priorita' "0"!
+60 recv> Ho ricevuto il messaggio "42"
+36 send> Messaggio "0" inviato con priorita' "1"!
+36 send> Messaggio "26" inviato con priorita' "1"!
+64 send> Messaggio "20" inviato con priorita' "0"!
+48 recv> Ho ricevuto il messaggio "18"
+4 recv> Ho ricevuto il messaggio "48"
+80 send> Messaggio "51" inviato con priorita' "1"!
+80 send> Messaggio "67" inviato con priorita' "1"!
+36 send> Messaggio "92" inviato con priorita' "0"!
+80 send> Messaggio "68" inviato con priorita' "2"!
+48 recv> Ho ricevuto il messaggio "51"
+36 send> Messaggio "14" inviato con priorita' "0"!
+4 recv> Ho ricevuto il messaggio "0"
+64 send> Messaggio "16" inviato con priorita' "2"!
+64 send> Messaggio "77" inviato con priorita' "1"!
+36 send> Messaggio "55" inviato con priorita' "2"!
+36 send> Messaggio "76" inviato con priorita' "1"!
+92 send> Messaggio "43" inviato con priorita' "2"!
+48 recv> Ho ricevuto il messaggio "26"
+92 recv> Ho ricevuto il messaggio "20"
+92 send> Messaggio "82" inviato con priorita' "0"!
+60 recv> Ho ricevuto il messaggio "92"
+36 send> Messaggio "44" inviato con priorita' "1"!
+64 send> Messaggio "80" inviato con priorita' "1"!
+92 recv> Ho ricevuto il messaggio "51"
+80 send> Messaggio "19" inviato con priorita' "2"!
+64 send> Messaggio "47" inviato con priorita' "2"!
+4 recv> Ho ricevuto il messaggio "67"
+92 send> Messaggio "52" inviato con priorita' "2"!
+36 send> Messaggio "4" inviato con priorita' "2"!
+48 recv> Ho ricevuto il messaggio "68"
+48 recv> Ho ricevuto il messaggio "14"
+80 send> Messaggio "72" inviato con priorita' "0"!
+80 send> Messaggio "54" inviato con priorita' "1"!
+36 send> Messaggio "88" inviato con priorita' "0"!
+36 send> Messaggio "55" inviato con priorita' "1"!
+4 recv> Ho ricevuto il messaggio "16"
+4 recv> Ho ricevuto il messaggio "77"
+36 send> Messaggio "83" inviato con priorita' "2"!
+92 send> Messaggio "37" inviato con priorita' "0"!
+36 send> Messaggio "78" inviato con priorita' "2"!
+64 send> Messaggio "60" inviato con priorita' "1"!
+92 recv> Ho ricevuto il messaggio "55"
+80 send> Messaggio "84" inviato con priorita' "1"!
+60 recv> Ho ricevuto il messaggio "43"
+60 recv> Ho ricevuto il messaggio "76"
+64 send> Messaggio "44" inviato con priorita' "2"!
+92 send> Messaggio "74" inviato con priorita' "1"!
+36 send> Messaggio "41" inviato con priorita' "0"!
+4 recv> Ho ricevuto il messaggio "44"
+80 send> Messaggio "99" inviato con priorita' "0"!
+80 send> Messaggio "55" inviato con priorita' "1"!
+48 recv> Ho ricevuto il messaggio "82"
+36 send> Messaggio "80" inviato con priorita' "0"!
+4 recv> Ho ricevuto il messaggio "80"
+80 send> Messaggio "41" inviato con priorita' "2"!
+64 send> Messaggio "98" inviato con priorita' "0"!
+92 recv> Ho ricevuto il messaggio "19"
+92 send> Messaggio "75" inviato con priorita' "0"!
+92 send> Messaggio "52" inviato con priorita' "0"!
+48 recv> Ho ricevuto il messaggio "47"
+36 send> Messaggio "91" inviato con priorita' "0"!
+36 send> Messaggio "75" inviato con priorita' "1"!
+60 recv> Ho ricevuto il messaggio "4"
+80 send> Messaggio "52" inviato con priorita' "0"!
+92 send> Messaggio "73" inviato con priorita' "0"!
+4 recv> Ho ricevuto il messaggio "52"
+36 send> Messaggio "71" inviato con priorita' "0"!
+36 send> Messaggio "78" inviato con priorita' "0"!
+48 recv> Ho ricevuto il messaggio "88"
+80 send> Messaggio "19" inviato con priorita' "0"!
+80 send> Messaggio "93" inviato con priorita' "0"!
+60 recv> Ho ricevuto il messaggio "72"
+36 send> Messaggio "1" inviato con priorita' "0"!
+36 send> Messaggio "68" inviato con priorita' "2"!
+92 recv> Ho ricevuto il messaggio "54"
+80 send> Messaggio "97" inviato con priorita' "0"!
+92 recv> Ho ricevuto il messaggio "55"
+64 send> Messaggio "96" inviato con priorita' "1"!
+64 send> Messaggio "61" inviato con priorita' "1"!
+80 send> Messaggio "46" inviato con priorita' "1"!
+4 recv> Ho ricevuto il messaggio "83"
+92 send> Messaggio "45" inviato con priorita' "1"!
+92 send> Messaggio "0" inviato con priorita' "0"!
+48 recv> Ho ricevuto il messaggio "37"
+80 send> Messaggio "10" inviato con priorita' "1"!
+80 send> Messaggio "35" inviato con priorita' "1"!
